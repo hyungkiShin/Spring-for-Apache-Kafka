@@ -39,7 +39,6 @@ public class RoutingKafkaTemplateConfiguration {
 
     }
 
-
     private ProducerFactory<Object, Object> defaultProducerFactory() {
         return new DefaultKafkaProducerFactory<>(producerProps());
     }

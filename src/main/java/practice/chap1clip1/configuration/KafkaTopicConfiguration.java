@@ -9,7 +9,6 @@ import org.springframework.kafka.core.KafkaAdmin;
 @Configuration
 public class KafkaTopicConfiguration {
 
-
     @Bean
     public KafkaAdmin.NewTopics clip2s() {
         return new KafkaAdmin.NewTopics(
